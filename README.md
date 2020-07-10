@@ -8,6 +8,6 @@ You can run the jupyter notebook online and learn while executing codes [here](h
 <br>The reason for using jupyter notebooks is because it helps you add texts and run codes as well at the same time so it acts like an interactive textbook in which you can see the demo at that moment only.
 <br> You can email me at saketsavarn07@gmail.com for any queries or doubts as well.
 <br> I initially made this for my teaching assistant internship jobs.
-<br> Hopefully you find them useful and easy to understand :D
+<br><br> Hopefully you find them useful and easy to understand :D
 
 
