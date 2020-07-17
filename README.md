@@ -14,7 +14,7 @@ You can run the jupyter notebook online and learn while executing codes [here](h
 <br><br>
 <b>--------------------------------------------------------------------------------------------------------</b>
 
-# <h1><center><font color = "red"><hr><b> Python 3.7 Class Notes </font></center></b></h1><hr>
+<h1><center><font color = "red"><hr><b> Python 3.7 Class Notes </font></center></b></h1><hr>
 <br>
 
 
@@ -22,62 +22,69 @@ You can run the jupyter notebook online and learn while executing codes [here](h
 
 
 
-# Contents
+<h1> Contents : </h1><br>
 
+<a href="#Note from the Author">Note from the Author</a>
+<br>
+<br>
+1. <a href="#1. Introduction to Python">Introduction to Python</a><br>
+2. <a href="#2. Features of Python">Features of Python</a><br>
+3. <a href="#3. Domain of Python">Domain of Python (What is Python used for?)</a><br>
+4. <a href="#4. Installing and setting-up Python">Installing and setting up Python</a><br><br>
+5. <a href="#5. Python Basic Fundamentals">Python Basic Fundamentals (Syntax Basics)</a><br>
+    a. <a href="#5A Flow of Code">Flow of Code</a><br>
+    b. <a href="#5B Semi-colons in Python">Semi-colons in Python</a><br>
+    c. <a href="#5C Indentation in Python">Indentation in Python</a><br><br>
+6. <a href="#6 Commenting in Python">Commenting in Python</a><br>
+    a. <a href="#6A Single line commenting in Python">Single-line commenting in Python</a><br>
+    b. <a href="#6B Multi-line commenting in Python">Multi-line commenting in Python</a><br><br>
+7. <a href="#7 Variables & Variable Assignment in Python">Variables & Variable Assignment in python</a><br><br>
+8. <a href="#8 Print function in Python">Print function in Python</a><br>
+    a. <a href="#8A Single-line printing in Python">Single-line printing in Python</a><br>
+    b. <a href="#8B Escape sequence in Python">Escape Sequence in Python</a><br>
+    c. <a href="#8C Multi-line printing in Python">Multi-line printing in Python</a><br><br>        
 
-1.   Introduction to Python
-2.   Features of Python
-
-1.   What is python used for? (Domain of python)
-2.   Installing and setting up Python
-
-1. Python Basic Fundamentals (Syntax Basics)
-        a. Semi-colons in Python
-        b. Indentation in Python
-2. Commenting in Python
-        a. Single-line commenting in Python
-        b. Multi-line commenting in Python
-3. Printing function in Python
-        a. Single line printing with python
-        b. Escape Sequence in python
-        c. Multi-line printing with python        
-4. Variables & Variable Assignment in python
-5. Primary Data-types in Python
-        a. Integer Data Type
-            i.    Declaring Int Values
-            ii.   Addition Operator
-            iii.  Subraction Operator
-            iv.   Multiplication Operator
-            v.    Division Operator
-            vi.   Double Division Operator
-            vii.  Modulus Operator
-            viii. Exponential Operator
-        b. Float Data Type
-            i.    Declaring Float Values
-        c. String Data Type
-            i.    Declaring String Values
-            ii.   String Concatenation 
-            iii.  Indexing and Slicing Strings
-            iv.   String Properties
-            v.    Basic str methods and functions
-            vi.   Methods used with str
-            vii.  Functions used with str
-        d. Boolean Data Type
-            i.    Comparison Operators in Python
-        e. Complex Number Data Type
-        f. None Data Type
+9. <a href="#9 Primary data types in Python">Primary Data-types in Python</a><br>
+    a. <a href="#9A Integer data type">Integer Data-Type</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;i. <a href="#9A i. Addition">Addition Operator</a>(+)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;ii. <a href="#9A ii. Subraction">Subraction Operator</a>(-)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;iii. <a href="#9A iii. Multiplication">Multiplication Operator</a>(\*)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;iv. <a href="#9A iv. Division">Division Operator</a>(/)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;v. <a href="#9A v. Double Division">Double Division Operator</a>(//)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;vi. <a href="#9A vi. Modulus">Modulus Operator</a>(%)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;vii. <a href="#9A vii. Exponential">Exponential Operator</a>(\**)<br>
+    b. <a href="#9B Float data type">Float Data-Type</a><br>
+    c. <a href="#9C String data type">String Data-Type</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;i. <a href="#9C i. Declaring string values">Declaring String Values</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;ii. <a href="#9C ii. String concatenation in python">String Concatenation</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;iii. <a href="#9C iii. Indexing and slicing strings">Indexing & Slicing Strings</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;iv. <a href="#9C iv. String properties">String Properties</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;v. <a href="#9C v. String methods & functions">Basic str methods & functions</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;vi. <a href="#9C vi. String methods">Methods used with str</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> <a href="#9C vi.> Len and type">Some Important Functions in Python (len() & type())</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;vii. <a href="#9C vii.String functions">Functions used with str</a><br>
+    d. <a href="#9D Boolean data type">Boolean Data-Type</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;i. <a href="#9D i. Comparison Operators">Comparison Operators in Python</a><br>
+    e. <a href="#9E Complex data type">Complex Number Data-Type</a><br>
+    f. <a href="#9F None data type">None Data Type</a><br><br>
+10. <a href="#10. Looping Statements in Python">Looping Statements in Python (For & While Loops)</a><br>
+    a. <a href="#10. i Need for looping statements in python">Need of Looping Statements</a><br>
+    b. <a href="#10. ii For loop staments">For Loops in Python(Syntax & Usage)</a><br>
+    c. <a href="#10. iii Nested for loop">Nested For Loops</a><br><br>
 
 
 
 
 <br>
 <br>
+<a id="Note from the Author"></a>
 
 ---
-## <b>Note from Author</b>
+<h3><b>Note from the Author</b></h3>
+
 ---
 
-Hi! My name is [Saket Savarn](outcastdreamer.github.io/)!!<br>I am currently studying in my 3rd Year of B.Tech CSe at REVA University.
+Hi! My name is [Saket Savarn](https://outcastdreamer.github.io/)!!<br>I am currently studying in my 3rd Year of B.Tech CSe at REVA University.
 The reason for me writing and documenting these Python Notes is to make it easier for me to provide the notes for the workshops and my internships where I teach Python frequently.<br>
 It also is for my reference purposes so that I can refer to all the concepts I have studied and also because it reinforces my python concepts as well.<br>
 Having said that I am pretty sure there will be bugs, grammatical errors, and few other kinds of errors here and there that I still need to verify and rectify. <br>
@@ -96,9 +103,11 @@ With all that done, I hope you keep learning!!<br>
 
 <br>
 <br>
+<a id="1. Introduction to Python"></a>
 
 ---
-## <b><u>1. Introduction to Python</b></u>
+<h3> <b><u>1. Introduction to Python</b></u></h3>
+
 ---
 Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991
 Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library. <br>
@@ -106,10 +115,12 @@ Python is considered both as a scripting and programming language by most develo
 The reason for considering it as a "scripting language" is because of the ease of coding, automation, deployment and various other reasons. The topic of whether python is a scripting language or just proramming language is hugely debated till now by developers.
 <br>
 <br>
-<u><h3>Keywords to go through in above definition : </h3></u>
-> **1. Interpreted Language :** Interpreted Language specifies that a language can be freely and directly be executed without the need of compiling the code. In case of python, when in *interpreter mode* , one can get the output then and there itself without the need of saving the file and then compiling it. This means even the errors are denoted then and there at that line only and it wll not wait till the completion of the code to tell all the errors in one go. One can go to interpreter by searching for "python" in windows search or typing it in cmd or terminal to directly enter it. In case of windows, if the *system environment variables* has been configured properly, you will see the python version and the prompt symbol ">>>". <br>
-A ">>>" (called 'python prompt') specifies an active line waiting for your command, while "..." specifies a continued line of code (in case of for loop, if-else, and basically any statements or code that is followed by a colon ":").<br><br><br>
-**2. Dynamically typed language :** Dynamically typed language in layman language means that python doesn't statically limit the coder to one data type for any variable unlike in case of C,C++ or Java. <br><br>&nbsp;<b><u>Eg:</u></b> In case of C or C++ lang, if we declare : 
+<u>Keywords to go through in above definition : </u><br>
+<b>1. Interpreted Language :</b> Interpreted Language specifies that a language can be freely and directly be executed without the need of compiling the code. In case of python, when in *interpreter mode* , one can get the output then and there itself without the need of saving the file and then compiling it. This means even the errors are denoted then and there at that line only and it wll not wait till the completion of the code to tell all the errors in one go. One can go to interpreter by searching for "python" in windows search or typing it in cmd or terminal to directly enter it. In case of windows, if the *system environment variables* has been configured properly, you will see the python version and the prompt symbol ">>>". <br>
+A <b>">>>"</b> (called 'python prompt') specifies an active line waiting for your command, while "..." specifies a continued line of code (in case of for loop, if-else, and basically any statements or code that is followed by a colon ":").<br><br><br>
+
+<b>2. Dynamically typed language :</b> Dynamically typed language in layman language means that python doesn't statically limit the coder to one data type for any variable unlike in case of C,C++ or Java. <br><br>&nbsp;<b><u>Eg:</u></b> In case of C or C++ lang, if we declare : 
+
 >
 > > #include <stdio.h><br>
 > > main() <br>
@@ -118,7 +129,8 @@ A ">>>" (called 'python prompt') specifies an active line waiting for your comma
 > > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = "hello"; <br>
 > > } 
 >
->&nbsp;you cannot declare, a = "hello" or a = 1.2, as 'a' variable is only int &nbsp;type and it will give error. We can only declare 'a' as a = 79, for example or integer type.
+
+&nbsp;you cannot declare, a = "hello" or a = 1.2, as 'a' variable is only int &nbsp;type and it will give error. We can only declare 'a' as a = 79, for example or integer type.
 <br><br>But in case of python, we directly declare "value" and not the "data-type" because python by default understands the data-type based on the value you assigned to the variable. This also means you can change the data-type of the variable to any type. This is why python is called "Dynamically typed" and not "statically typed".
 <br><br>&nbsp;<b><u>Eg:</u></b>
 
@@ -140,27 +152,30 @@ print (a)
     4.57
     
 
-> (I will be explaining "print" and how to declare variables in python in later stages of the notes, though it should be self explanatory for most of you.)<br> Here we can see that the value of variable 'a' is not declared specifically, we just declare the value, say a = 10. We don't say : <br>
+(I will be explaining "print" and how to declare variables in python in later stages of the notes, though it should be self explanatory for most of you.)<br> Here we can see that the value of variable 'a' is not declared specifically, we just declare the value, say a = 10. We don't say : <br>
 >
 > > int a = 10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//C or C++ example
 >
-> We can also observe from the above code snippet that the value of a could be overwritten to any data type. Be it string, integer or float.
+>
+
+We can also observe from the above code snippet that the value of a could be overwritten to any data type. Be it string, integer or float.
 <br>
 <br>
 <br>
-**3. Garbage-collected language :** Garbage collection (GC) is a form of automatic memory management. The garbage collector, or just collector, attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the program and clears them without need of the programmer to do so on their own.  
+<b>3. Garbage-collected language :</b> Garbage collection (GC) is a form of automatic memory management. The garbage collector, or just collector, attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the program and clears them without need of the programmer to do so on their own.  
 <br>
 <br>
-**4. Functional programming language :** Functional programming language is most of the time built on Object-oriented programming and allows one to use functions to reduce the need of coding, in their place by using functions. Here these functions are imported using libraries or modules by python which are basically classes which have these functions which act like objects.<br><br> For example, we have functions for string data-type where-in string data-type also acts like a class/module/library and offers functions like lower(), upper(), join(), etc {More about this later}.
+<b>4. Functional programming language :</b> Functional programming language is most of the time built on Object-oriented programming and allows one to use functions to reduce the need of coding, in their place by using functions. Here these functions are imported using libraries or modules by python which are basically classes which have these functions which act like objects.<br><br> For example, we have functions for string data-type where-in string data-type also acts like a class/module/library and offers functions like lower(), upper(), join(), etc {More about this later}.
 
 
 
 
 <br>
 <br>
+<a id="2. Features of Python"></a>
 
 ---
-## <b>2. <u>Features of Python</b></u>
+<h3> <b>2. <u>Features of Python</b></u></h3>
 
 ---
 1. Human-friendly code readibility and understanding.
@@ -174,9 +189,10 @@ print (a)
 
 <br>
 <br>
+<a id="3. Domain of Python"></a>
 
 ---
-## <b>3. <u>Domains of Python</b></u>
+<h3> <b>3. <u>Domain of Python (What is Python used for?)</b></u></h3>
 
 ---
 1. Python is used for making desktop applications using GUI programming for various OS like windows, linux, mac, etc. At times the front-end is made using languages like JAVA while back-end is made using python as JAVA is easier to use for making GUI or front-end while python is good for back-end.
@@ -195,9 +211,10 @@ print (a)
 
 <br>
 <br>
+<a id="4. Installing and setting-up Python"></a>
 
 ---
-## <b>4. <u>Installing and setting-up python</b></u>
+<h3> <b>4. <u>Installing and setting-up Python</b></u></h3>
 
 ---
 First things first, make sure that you are sure about your system/laptop configurations. If you are on windows check so on by searching (Win key + s) "system information".
@@ -219,13 +236,20 @@ In-case it says "python not found" in cmd, follow this [tutorial](https://www.yo
 
 <br>
 <br>
+<a id="5. Python Basic Fundamentals"></a>
 
 ---
-## <b>5. <u>Python Basic Fundamentals (Syntax Basics)</b></u>
+<h3> <b>5. <u>Python Basic Fundamentals (Syntax Basics)</b></u></h3>
+
 ---
-<br><b>Semi-colons in Python </b><br>
+<a id="5A Flow of Code"></a>
+<br><b>(a.)Flow of Code </b><br>
+Just like how we read books from top to bottom and left to right, the flow of the code works in the same way usually in python as well (Just like how it's done in C, C++ or Java). The [python interpreter]() reads the code from the 1st line to the last line provided there aren't any jump statements like function calls or decision/conditional statements or looping statements that would make a piece of code loop again and again until a specific condition is met. This is important to keep in mind as we have to make sure the right line of code is being executed at the right time or else we won't get the desired results. 
+
+<a id="5B Semi-colons in Python"></a>
+<br><b>(b.) Semi-colons in Python </b><br>
 Unlike C, C++ languages, Python doesn't require a semi-colon (;) to end a line of code. The python interpreter itself understands a new line as end of that line of code. Even though semi-colon isn't required, python still supports usage of semi-colon and is used the same way as in C & C++. It can be used to write two lines of code in one by using a semi-colon
-to end them. Eg:<br>
+to end them. Since, python reads the code from left to right as mentioned above, the left-most statement will be considered first then the ones following it after the semi-colon. Eg:<br>
 <code>a = 1; b = 2;</code><br>
 and
 <code>
@@ -233,7 +257,9 @@ a = 1
 b = 2</code><br>
 Both are valid in python.
 <br>
-<br><b>Indentation in Python </b><br>
+
+<a id="5C Indentation in Python"></a>
+<br><b>(c.) Indentation in Python </b><br>
 Another thing to keep in python is that unlike C & C++ which use Curly Braces {} to refer to a block of code belonging to
 a conditional or loop statement (if-else, for or while loop), Python uses <b>Indentation</b> to indicate which block of code is under a conditional or loop statement. Since explaining in text is not easy, I would suggest [watching this](https://www.youtube.com/watch?v=igFtmXV_9vE) short video to get a clearer idea, with further examples in loopa and conditional statements below it will become clearer what indentation is.
 
@@ -241,23 +267,27 @@ a conditional or loop statement (if-else, for or while loop), Python uses <b>Ind
 
 <br>
 <br>
+<a id="6. Commenting in Python"></a>
 
 ---
-## <b>6. <u>Commenting in python</b></u>
+<h3> <b>6. <u>Commenting in Python</b></u></h3>
+
 ---
 
 Comments are used for adding personal instructions or lines that the compiler or interpreter ignores. This allows the developer to add lines to further explain his/her code to other developers who might go through your code later or even allow the creator to remember what a specific region of code did.
 
-#### <u>Why commenting is important : </u>
-* Sometimes you have projects spanning with over 100 to thousands of lines of codes. One person can't possibly remember what a specific region of code does in thousands line of codes and hence adding comments allows one to understand the context of the code.
-* It's a crucial part of documentation and is evident in many open source projects, etc that you will find online.
-* It allows other coders going through your code to understand your code better as everyone has different coding style. It's important if you are working on a project with a team.
+<h4><u><b>Why commenting is important : </u></b></h4>
+<li> Sometimes you have projects spanning with over 100 to thousands of lines of codes. One person can't possibly remember what a specific region of code does in thousands line of codes and hence adding comments allows one to understand the context of the code.</li>
+<li> It's a crucial part of documentation and is evident in many open source projects, etc that you will find online.</li>
+<li> It allows other coders going through your code to understand your code better as everyone has different coding style. It's important if you are working on a project with a team.</li>
 <br>
 The best code practice is when your code is readiable from the get go though, without the need of explaining.
+<br><br>
+<b>NOTE : </b> Since this is a tutorial kind of book, I will be using a lot of comments through the code, kindly keep keen eye for them as I will be explaining in much more detail with them.
 
 
-
-#### <u> a.) Single line commenting in python: </u><br>
+<a id="6A Single line commenting in Python"></a>
+<u><b> (a.) Single-line commenting in Python: </b></u><br>
 We use Hash<code>(#)</code> symbol while commenting in single line in python. This is handy if we want to comment a specific line of the code to disable it and see how the output of the code works. Eg : 
 
 
@@ -277,7 +307,8 @@ print ("Value of a is : ",a)
     Value of a is :  2
     
 
-<br><br><b><u>b.) Multi-line commenting in python</u> : </b>
+<a id="6B Multi-line commenting in Python"></a>
+<br><br><b><u>(b.) Multi-line commenting in python</u> : </b>
 <br>Mutli-line commenting means commenting multiple lines in one go. This is useful when you want to comment out a whole specific block of codes (multiple code statements) unlike just one or two statements. For example you can comment out a whole for loop if you think it's causing errors in your code and see if your code works with it or without it.<br><br>
 You can do multi-line commenting in python using triple quotes <code>""".</code>Just type everything inside the triple quotes and enclose it by them.
 <br>
@@ -309,9 +340,11 @@ print ("This is not a comment")
 
 <br>
 <br>
+<a id="7 Variables & Variable Assignment in Python"></a>
 
 ---
-## <b>7. <u>Variables & Variable Assignment in python</b></u>
+<h3> <b>7. <u>Variables & Variable Assignment in Python</b></u></h3>
+
 ---
 Variables are used to assign
 <b><h4>Variable names :</h4></b>
@@ -348,13 +381,16 @@ a,b,c = 1,"hello",4.2  #This method unpacks the int value 1 to variable 'a' as b
 
 <br>
 <br>
+<a id="8 Print function in Python"></a>
 
 ---
-## <b>8. <u>Print function in python</b></u>
+<h3> <b>8. <u>Print function in Python</b></u></h3>
+
 ---
 <code>print()</code> function is similar to <code>printf();</code> function in C & C++. But unlike C & C++ it doesn't need necessarily need a type specifier (%d, %s, %f) etc to print values of variables. You can directly print the value or the variable holding the value without using the type-specifier for the data-type that value belongs to. In python 2.7, print was a [keyword](https://www.programiz.com/python-programming/keywords-identifier#:~:text=Keywords%20are%20the%20reserved%20words,33%20keywords%20in%20Python%203.7.) and hence did not require any paranthesis or brackets () after it, but from Python 3, print() is a function and hence it requires paranthesis which in which we pass the values or variables we want to print the output of.
 <br>
-* <b>Single line printing in python</b><br>
+<a id="8A Single-line printing in Python"></a>
+<b>(a.) Single line printing in Python</b><br>
 Eg : 
 
 
@@ -381,7 +417,8 @@ print ("The value of c is : ",c)   #
     
 
 <br><br>
-* <b>Escape Sequence in python</b><br>The above statements are printed just fine but I feel like there is little too less gap between each print statement.
+<a id="8B Escape sequence in Python"></a>
+<b>(b.) Escape Sequence in Python</b><br>The above statements are printed just fine but I feel like there is little too less gap between each print statement.
 We can add empty new lines , empty tab spaces, etc using ["escape sequence or escape character"](http://www.python-ds.com/python-3-escape-sequences) to make our output more pretty.<br>
 <b>"\n"</b> and <b>"\t"</b> are the two most commonly used escape sequences and are used in many other programming languages like C,C++,Java, etc.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li><b>\n</b> : It is used to print an empty new line. Usually used to add spaces between two print statements.</li>
@@ -408,7 +445,9 @@ print ("\n\tThe value of c is : ",c)       #Here the new line has been added in 
     	The value of c is :  4.2
     
 
-* <b>Multi-line printing in python</b> :<br>
+---
+<a id="8C Multi-line printing in Python"></a>
+<b>(c.) Multi-line printing in Python</b> :<br>
 We use <code>"""</code> triple quotes just like in case of multi-line in commenting (Topic 5 in contents) comments for multi-line printing. See the following examples below :  
 
 
@@ -488,15 +527,17 @@ ___________________________________
 
 <br>
 <br>
+<a id="9 Primary data types in Python"></a>
 
 ---
-## <b>9. <u>Primary data types in python</b></u>
+<h3><b>9. <u>Primary Data-types in Python</b></u></h3>
+
 ---
-There are two types of data-types in python in terms of layman language. 
+There are two types of data-types in python in layman terms. 
 1. Primary Data type
 2. Secondary Data type or Container Data type
 
-**Primary Data type :** <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Primary Data type :</b> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 It consists of the following data types :
 * Int or Integer (Denoted by %d as a placeholder)
 * Float or decimal numbers (Denoted by %f as  a placeholder)
@@ -506,7 +547,7 @@ It consists of the following data types :
 * Complex Numbers <br>
 <br>
 
-**Secondary Data type :**
+<b>Secondary Data type :</b>
 It contains primary data types (the ones mentioned above) as it's elements or values, basically they are container data types that consist of various primary data type values stored in them which allows us to store multiple values of any data type and assign to just one variable. This reduces of stating multiple variables for similar values.
 * Lists (Arrays variation of C and C++ Lang for python)
 * Tuples (Basically immutable python lists)
@@ -519,21 +560,22 @@ It contains primary data types (the ones mentioned above) as it's elements or va
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All these data types have unlimited memory allocation (which implies it depends on one's PC memory limits, this also means you don't need to assign size of array, string, etc like in case of C/C++ as python has unlimited memory allocation and also automated garbage collector which works hand in hand with dynamic typing.) Unlike in C/C++ where you initialize strings as : <br>
 > char a[10];
 
-<br>You can just declare, a = "hello" or <br>a = "This sentence can be as long as you want without the need of declaring the number of characters in it, really you can stretch it as long as you want it to."
+<br>You can just declare,<br>
+<code>a = "hello"</code> or <br><code>a = "This sentence can be as long as you want without the need of declaring the number of characters in it, really you can stretch it as long as you want it to."</code>
 <br><br>
 Here all the data types except int and float are also treated classes/modules/libraries because int and float data types are only meant to be used for mathematical operations like addtion, subraction, etc.
 <br><br>
 
 <hr><br>
-
-### <u>**a.) Integer Data type (int)**</u><br>
-<u>*Declaring int value :*</u><br>
+<a id="9A Integer data type"></a>
+<h3><u><b>(a.) Integer Data-Type (int)</b></u></h3><br>
+<u><b>Declaring int value :</b></u><br>
 We use '=' as the assignment operator which assigns values to the variable.<br> 
 <code>a = 1<br>
 b = 2<br>
 a = 1; b = 2<br>
-a, b = 1, 2 <br></code>All work. Here 'a' & 'b' are variables holding the values 1 and 2 throughout the whole example. You can use semi-colons like in C/C++ to seperate variables and statements but I wouldn't suggest to use them everywhere also keep in mind, if you do a,b = 1,2,3 you will get error as python expects at least 3 variables in this case, so you would have to do a,b,c = 1,2,3.<br><br>**Note :** By the way, these declaration methods work for float, strings, and all other various data types. <br>
-<br><u>*Working with integers :*</u><br>
+a, b = 1, 2 <br></code>All work. Here 'a' & 'b' are variables holding the values 1 and 2 throughout the whole example. You can use semi-colons like in C/C++ to seperate variables and statements but I wouldn't suggest to use them everywhere also keep in mind, if you do a,b = 1,2,3 you will get error as python expects at least 3 variables in this case, so you would have to do a,b,c = 1,2,3.<br><br><b>Note :</b> By the way, these declaration methods work for float, strings, and all other various data types. <br>
+<br><u><i>Working with integers :</i></u><br>
 Before working with integers you need to know what are operators and their uses. You must have used them in maths before (if you haven't, what are you doing in your life anyway :v)
 
 <br>
@@ -542,20 +584,20 @@ Before working with integers you need to know what are operators and their uses.
 
 
 
-#### Operators in python :
-* Addtion (+)
-* Subraction (-)
-* Multiplication (<b>*</b>)
-* Division (/) {Gives float value as quotient}
-* Double Division (//) {Gives int value as quotient}
-* Modulus (%) {Returns remainder}
-* Expotential (<b>**</b>) {Returns the raised to power of a number}
+<b> Operators in python :</b>
+<ul><li> Addtion (+) </li>
+<li> Subraction (-) </li>
+<li> Multiplication (<b>*</b>) </li>
+<li> Division (/) {Gives float value as quotient} </li>
+<li> Double Division (//) {Gives int value as quotient} </li>
+<li> Modulus (%) {Returns remainder} </li>
+<li> Exponential (<b>**</b>) {Returns the raised to power of a number} </li></ul<
 
 <br>
 
 <hr><br>
-
-<br><br><u> **i.) Addition operator : '+'**</u> &nbsp;&nbsp;<br>
+<a id="9A i. Addition"></a>
+<br><br><u><b>i.) Addition operator : '+'</b></u>
 (Adds two or more numbers)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eg : >>> a = 1; b = 2; c = a+b+2
 <br>
@@ -592,8 +634,9 @@ print ("The new updated value of c is : ",c)
     The new updated value of c is :  8
     
 
-<b>----------------------------------------------------------------------------------------------------------------------------------------------</b>
-<u><br><br> **ii.) Subraction Operator : '-'**</u> 
+<b>----------------------------------------------------------------------------------------------------------------------------------------------</b><br>
+<a id="9B ii. Subraction"></a>
+<u><br><br> <b>ii.) Subraction Operator : '-'</b></u> 
 (Subracts two or more numbers)</u>
 <br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eg : >>> a = 5; b = 7; b - = 1; a = a - b;
@@ -618,9 +661,9 @@ print ("The value of a is : ",a)
     The value of a is :  -1
     
 
-<b>----------------------------------------------------------------------------------------------------------------------------------------------</b>
-#### **<u>iii.) Mutiplication Operator : '<b>(*)</b>'**</u>
- (Multiplies two or more numbers)
+<b>----------------------------------------------------------------------------------------------------------------------------------------------</b><br>
+<a id="9A iii. Multiplication"></a>
+<b><u>iii.) Mutiplication Operator : '(\*)'</b></u> (Mutliplies two or more numbers)
 <br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eg : >>> a = 5; b = 7;  c = a * b;
 <br>
@@ -642,7 +685,8 @@ print (c)
 
 
 <b>----------------------------------------------------------------------------------------------------------------------------------------------</b>
-<br><br>**<u>iv.) Division Operator : '<b>/</b>'**</u>
+<a id="9A iv. Division"></a>
+<br><br><b><u>iv.) Division Operator : '/'</b></u>
  (Divides two or more numbers)
 <br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Eg : >>> a = 15 ; b = 5 ;  c = 2 ; d = 150 ; e = a/b ; f = a/c ; g = a/d</code>
@@ -674,8 +718,9 @@ print ("Value of e is :",e,",and of f is :",f,",while of g is :",g)
     
 
 
-<b>----------------------------------------------------------------------------------------------------------------------------------------------</b>
-<u>**v.) Double division Operator : '<b>//</b>'**</u>
+<b>----------------------------------------------------------------------------------------------------------------------------------------------</b><br><br>
+<a id="9A v. Double Division"></a>
+<u><b>v.) Double division Operator : '//'</b></u>
  (Divides two or more numbers but returns integer quotient instead of a float quotient)
 <br></u> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eg : >>> a = 15; b = 5;   c = 2; d = 150; e = a//b; f = a//c; g = a//d
@@ -706,8 +751,9 @@ print ("Value of e is :",e,",and of f is :",f,",while of g is :",g)
 
 
 <b>----------------------------------------------------------------------------------------------------------------------------------------------</b>
-<br><br><u>**vi.) Modulus Operator : '<b>%</b>'**</u>
- (Divides two or more numbers)
+<a id="9A vi. Modulus"></a>
+<br><br><u><b>vi.) Modulus Operator : '%'</u></b>
+ (Returns remainder)
 <br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eg : >>> a = 15; b = 5;   c = 2; d = a%b; e=a%c
 <br>
@@ -722,7 +768,8 @@ print ("Value of e is :",e,",and of f is :",f,",while of g is :",g)
 #Modulus (%)
 a = 15; b = 5; c = 2; 
 d = a%b; e=a%c
-print ("Value of d is :",d,"\nand value of e is:",e)   #\n is used to print to new line. \n is called an escape squence, 
+print ("Value of d is :",d,"\nand value of e is:",e)   
+#\n is used to print to new line. \n is called an escape squence, 
 #it is a special charater reserved in many coding languages.
 ```
 
@@ -732,8 +779,8 @@ print ("Value of d is :",d,"\nand value of e is:",e)   #\n is used to print to n
 
 
 <b>----------------------------------------------------------------------------------------------------------------------------------------------</b>
-<br><br><u>**vii.) Expotential Operator : <b>**</b>'**'</u>
- (Divides two or more numbers)
+<a id="9A vii. Exponential"></a>
+<br><br><u><b>vii.) Exponential Operator : (\*\*)</b></u>(Raises two numbers)
 <br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eg : >>> a = 4; b = 4;   
 <br>
@@ -747,7 +794,7 @@ print ("Value of d is :",d,"\nand value of e is:",e)   #\n is used to print to n
 
 
 ```python
-#Expontential (**)
+#Exponential (**)
 a = 4; b = 4;
 print ("\'a\' raised to power of 2 is:",a**2,"\nand \'a\' raised to power of b is :", a**b, "\nand \'a\' raised to 0.5 is:", a**0.5)
 
@@ -762,15 +809,15 @@ print ("\'a\' raised to power of 2 is:",a**2,"\nand \'a\' raised to power of b i
     
 
 <br><br><hr><br>
-
-### <u>**b.) Float Data type (float)**</u><br>
-<u>*Declaring float value :*</u><br>
+<a id="9B Float data type"></a>
+<h3><u><b>(b.) Float Data type (float)</b></u></h3><br>
+<u><b>Declaring float value :</b></u><br>
 We use '=' as the assignment operator which assigns values to the variable.<br> 
 a = 1.2<br>
 b = 2.5<br>
 a = 1.2; b = 2.5<br>
 a,b = 1.2,2.5 <br>All work. Here 'a' & 'b' are variables holding the values 1.2 and 2.5 through the whole example. Basically it's the same as declaring int or string  values.
-<br><br><u>*Working with floats :*</u><br>
+<br><br><u><b>Working with floats :</b></u><br>
 It's the same as integer values in python (I mean floats are just integers in the end but they have a point, so obviously it works just the same). Operators like addition, subraction, multiplication, division, modulus, all the operators mentioned above work.
 
 
@@ -789,8 +836,8 @@ print ("The product of \'a\' and \'b\' is :",a*b)
     
 
 <br><br><hr><br>
-
-### <u>**c.) String Data type (str)**</u><br>
+<a id="9C String data type"></a>
+<h3><u><b>(c.) String Data type (str)</b></u></h3><br>
 <br>
 Unlike int and float values which can only be used for maths and with operators, we can do a lot with strings, like : concatenation of strings, reversing a string, slicing strings, capitalizing them, etc and hence python treats string not just like a datatype but as a module/library  also, meaning it has it's own sets of functions that can be used with strings.
 This allows us coders to just call the function instead of typing multiple lines of codes to do the same thing. This is a feature of python as it's also a functional programming language as I mentioned in the features section of python. (2nd topic in Content).
@@ -800,7 +847,8 @@ String datatype consists of all alphabets letters, symbols, signs and alphanumer
 
 
 <b>----------------------------------------------------------------------------------------------------------------------------------------------</b><br>
-<br><u>**i.) Declaring string values**</u> :<br>
+<a id="9C i. Declaring string values"></a>
+<br><u><b>(i.) Declaring String Values</b></u> :<br>
 <code>var = "hello potato"</code> #You can make this sentence as long as you like <br>
 <code>print (var)<br><br>
 var1 = "hello potato this is a longer sentence which can stretch for many virtual kilometers provided you have the patience to type that much"
@@ -825,7 +873,8 @@ print (var1)  #No need to do : char var1[100] like in case of c/c++, it's techni
 
 
 <b>----------------------------------------------------------------------------------------------------------------------------------------------</b><br>
-<br><b><u>ii.) String concatenation in python :</u></b><br>
+<a id="9C ii. String concatenation in python"></a>
+<br><b><u>(ii.) String concatenation in Python :</u></b><br>
 String concatenation refers to the act of joining two strings together to make a new string consisting both the previous strings. Like this multiple strings can be joined together. String concatenation is very simple in python. You just add text as it is. Following example below will demonstrate everything.
 
 
@@ -854,8 +903,9 @@ print ("\n"+f+b+e+b+f+b+e+" !!"+" "+d+",","can you hear me now ?")
 
 
 <b>----------------------------------------------------------------------------------------------------------------------------------------------</b><br>
-<br><b><u>iii.) Indexing and slicing strings in python :</u></b><br>
-* <u>Definition of Index/Indices</u> :
+<a id="9C iii. Indexing and slicing strings"></a>
+<br><b><u>(iii.) Indexing and slicing strings in Python :</u></b><br>
+<ul><li> <u>Definition of Index/Indices</u></li><ul> :
 <br>It is a common method for keeping track of data so that it can be accessed quickly. Like an index in a book, it is a numeric value in which each entry contains the name of the item or element and its location. However, computer-based indexes may point to a physical location on a disk or to a logical location that points elsewhere to the actual location.<br>
 Indices (plural of 'index') start from 0 (zero) and go on to n-1, where 'n' is the number of characters in the string in this case. For eg: the string "hello" has n = 5 value as "hello" has 5 characters, hence the indices will start from 0 and go on till n-1, i.e, 5 - 1 = 4.<br>
 In python, indexing is represented as follows, say : a = "hello"; then a[index_number] is the syntax of using indices for string (as well as lists which will be explained later). So in this case, a[0], a[1], a[2], a[3] and a[4] are indices of the variable 'a'. Each of these indices, hold a character of that string assigned to the variable. Therefore, for a = "hello", a[0]=>'h', a[1]=>'e',a[2]=>'l', a[3]=>'l', a[4]=>'o'. We don't have a[5] as the length of "hello" is 5, and indices range from 0 to n-1 as I said before, so here it is 0 to 4 indices. Similar example : b = "Name", here indices of 'b' from 0 to 3 where, b[0]='N', b[1]='a', b[2]='m' and b[3]='e'. <br><br>
@@ -904,19 +954,19 @@ print (" ",a[-5])
       a
     
 
-* <u>Slices in strings </u> :
+<ul><li><u>Slices in strings </u></li></ul> :
 <Br> So uptil now we have learned about indices in strings. Now moving to the next topic, which is slices. It uses the concept of indices to work. If you remember correctly, if a="apple", then a[0]=>"a". Here, we are just using one index, i.e., 0 (zero). But in actual, we can input upto three parameters inside the [ ] (square brackets).
 <br>The important thing to remember is this :
- * We can input upto three parameters inside the square brackets [ ].
- * Out of the three parameters, having at least one value or parameter when using the square brackets [ ] is compulsory (as in a[0]).
- * So we can use either 1, 2 or upto 3 parameters in square brackets, and each of these parameters is seperated using "colons" (:).
- * The parameters are denoted as follows -> [*start*:*stop*:*step*] (notice the colons been used to seperate the parameters as mentioned in the above point.
- * *start* parameter decides from which index we are supposed to start.
- * *stop* parameter decides at which index we are supposed to stop (it goes upto n-1 index, so if we choose say (a[0:3]), we will get characters in "apple" from 0th index to 3-1=2 (n-1), so a[0:3] will return "app" from 0th, 1st and 2nd index). Here even though we just used [*start*:*stop*] in a[0:3], the *step* parameter was by default set to 1, i.e. in the back-end python was executing a[0:3:1], because by default, the *step* parameter is set at 1, when we use both *start* and *stop* parameters inside the square brackets.
- * *step* parameter is used for skipping the characters or stepping on them as we count from left to right. For eg : a[0:5:2] (here we have purposefully used '2' as the step so python knows not to use "1" as the value for the step parameter by default).<br>So, for a[0:5:2], we will start at a[0]=>"a",jump two indices and go to a[2]=>"p" and go on until 5-1=4 index,so a[4]="e". So a[0:5:2]=>"ape" (Start at 0, stop at 5-1=4, jump two indices every step). Notice how we can use "5" as stop value as well because *stop* parameter only considers n-1 as a value.
- * In case only one parameter is involved (like in a[0]), we get the value at that specific index ("a" in "apple" for a[0]). Because here, we only consider the value at that specific index, here a[0].
- * In case two parameters are given then python only considers them as [*Start*:*Stop*] with *Step* set at 1 by default in the back-end by python itself. Eg : a[0:4]=>"appl" (From 0th index to n-1 (4-1=3) index).
- * In case all three parameters are given [*start*:*stop*:*step*] it works the same way as explained in case of a[0:5:2] above.
+ <ul><li> We can input upto three parameters inside the square brackets [ ]</li></ul>.
+ <ul><li> Out of the three parameters, having at least one value or parameter when using the square brackets [ ] is compulsory (as in a[0]).</li></ul>
+ <ul><li> So we can use either 1, 2 or upto 3 parameters in square brackets, and each of these parameters is seperated using "colons" (:)</li></ul>
+ <ul><li> The parameters are denoted as follows -> [<i>start</i>:<i>stop</i>:<i>step</i>] (notice the colons been used to seperate the parameters as mentioned in the above point</li></ul>
+ <ul><li> <i>start</i> parameter decides from which index we are supposed to start. </li></ul>
+ <ul><li> <i>stop</i> parameter decides at which index we are supposed to stop (it goes upto n-1 index, so if we choose say (a[0:3]), we will get characters in "apple" from 0th index to 3-1=2 (n-1), so a[0:3] will return "app" from 0th, 1st and 2nd index). Here even though we just used [<i>start</i>:<i>stop</i>] in a[0:3], the <i>step</i> parameter was by default set to 1, i.e. in the back-end python was executing a[0:3:1], because by default, the <i>step</i> parameter is set at 1, when we use both <i>start</i> and <i>stop</i> parameters inside the square brackets.</li></ul>
+ <ul><li> <i>step</i> parameter is used for skipping the characters or stepping on them as we count from left to right. For eg : a[0:5:2] (here we have purposefully used '2' as the step so python knows not to use "1" as the value for the step parameter by default).<br>So, for a[0:5:2], we will start at a[0]=>"a",jump two indices and go to a[2]=>"p" and go on until 5-1=4 index,so a[4]="e". So a[0:5:2]=>"ape" (Start at 0, stop at 5-1=4, jump two indices every step). Notice how we can use "5" as stop value as well because <i>stop</i> parameter only considers n-1 as a value.</li></ul>
+ <ul><li> In case only one parameter is involved (like in a[0]), we get the value at that specific index ("a" in "apple" for a[0]). Because here, we only consider the value at that specific index, here a[0].</li></ul>
+ <ul><li>In case two parameters are given then python only considers them as [<i>Start</i>:<i>Stop</i>] with <i>Step</i> set at 1 by default in the back-end by python itself. Eg : a[0:4]=>"appl" (From 0th index to n-1 (4-1=3) index).</li></ul>
+ <ul><li> In case all three parameters are given [<i>start</i>:<i>stop</i>:<i>step</i>] it works the same way as explained in case of a[0:5:2] above.</li></ul>
  
 
 
@@ -926,12 +976,8 @@ s = "hello world"
 print (s[1:])
 ```
 
-
-
-
-    'ello world'
-
-
+    ello world
+    
 
 
 ```python
@@ -940,12 +986,8 @@ s = "hello world"
 print (s)
 ```
 
-
-
-
-    'hello world'
-
-
+    hello world
+    
 
 
 ```python
@@ -954,12 +996,8 @@ s = "hello world"
 print (s[:4])
 ```
 
-
-
-
-    'hell'
-
-
+    hell
+    
 
 
 ```python
@@ -968,12 +1006,8 @@ s = "hello world"
 print (s[:])
 ```
 
-
-
-
-    'hello world'
-
-
+    hello world
+    
 
 
 ```python
@@ -985,12 +1019,8 @@ print (s[:-1])
 #step as 1 (set by python, even though we are only using the parameters [start:stop])
 ```
 
-
-
-
-    'hello worl'
-
-
+    hello worl
+    
 
 
 ```python
@@ -1001,12 +1031,8 @@ print (s[::1])
 #mentioned, it will include everything.
 ```
 
-
-
-
-    'hello world'
-
-
+    hello world
+    
 
 
 ```python
@@ -1019,12 +1045,8 @@ print (s[::2])
 #step = set as 2 by us.
 ```
 
-
-
-
-    'hlowrd'
-
-
+    hlowrd
+    
 
 
 ```python
@@ -1034,14 +1056,11 @@ print (s[::-1])
 #Grab everything but start from the last index (negative one step) and go on to the start parameter.
 ```
 
+    dlrow olleh
+    
 
-
-
-    'dlrow olleh'
-
-
-
-<br><br><b><u>iv.) String Properties</u> :</b> 
+<a id="9C iv. String properties"></a>
+<br><br><b><u>(iv.) String Properties</u> :</b><br> 
 It's important to note that strings have an important property known as *immutability*. This means that once a string is created, the elements within it can not be changed or replaced. For example:
 
 
@@ -1067,11 +1086,12 @@ s[0] = 'x'
 
     TypeError                                 Traceback (most recent call last)
 
-    <ipython-input-25-6e347f416f94> in <module>()
+    <ipython-input-99-21fdf30a429e> in <module>
           1 # Let's try to change the first letter to 'x'
-    ----> 2 s[0] = 'x'
-          3 #This was the reason I was using "=>" To denote a[0]=>"a" in above examples, as saying a[0]="a" means you are trying to
-          4 #change the value/character at a[0] which is not allowed in string datatype.
+          2 s = "hello world"
+    ----> 3 s[0] = 'x'
+          4 #This was the reason I was using "=>" To denote a[0]=>"a" in above examples, as saying a[0]="a" means you are trying to
+          5 #change the value/character at a[0] which is not allowed in string datatype.
     
 
     TypeError: 'str' object does not support item assignment
@@ -1088,6 +1108,9 @@ s = "hello world"
 print (s)
 ```
 
+    hello world
+    
+
 
 ```python
 # Concatenate strings!
@@ -1095,12 +1118,18 @@ s = "hello world"
 print (s + '!! I am batman')
 ```
 
+    hello world!! I am batman
+    
+
 
 ```python
 #Notice how the original value of variable s is not changed
 #Make sure you have run the above 2 cells to see the output without error here
 print (s)
 ```
+
+    hello world
+    
 
 
 ```python
@@ -1117,7 +1146,11 @@ s = s + ' I am batman!'
 print (s)
 ```
 
-<br><br><b><u>v.) Basic Built-in String methods and functions</u> : </b>
+    hello world I am batman!
+    
+
+<a id="9C v. String methods & functions"></a>
+<br><br><b><u>(v.) Basic Built-in String methods and functions</u> : </b>
 
 Objects in Python usually have built-in methods and functions. These methods are functions inside the object that can perform actions or commands on the object itself.
 
@@ -1137,6 +1170,404 @@ help("str")
 #press 'q' on the keyboard if you are in interactive/terminal mode of python to exit the help menu.
 #this is not the terminal/interactive mode of python by the way :P
 ```
+
+    Help on class str in module builtins:
+    
+    class str(object)
+     |  str(object='') -> str
+     |  str(bytes_or_buffer[, encoding[, errors]]) -> str
+     |  
+     |  Create a new string object from the given object. If encoding or
+     |  errors is specified, then the object must expose a data buffer
+     |  that will be decoded using the given encoding and error handler.
+     |  Otherwise, returns the result of object.__str__() (if defined)
+     |  or repr(object).
+     |  encoding defaults to sys.getdefaultencoding().
+     |  errors defaults to 'strict'.
+     |  
+     |  Methods defined here:
+     |  
+     |  __add__(self, value, /)
+     |      Return self+value.
+     |  
+     |  __contains__(self, key, /)
+     |      Return key in self.
+     |  
+     |  __eq__(self, value, /)
+     |      Return self==value.
+     |  
+     |  __format__(self, format_spec, /)
+     |      Return a formatted version of the string as described by format_spec.
+     |  
+     |  __ge__(self, value, /)
+     |      Return self>=value.
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  __getitem__(self, key, /)
+     |      Return self[key].
+     |  
+     |  __getnewargs__(...)
+     |  
+     |  __gt__(self, value, /)
+     |      Return self>value.
+     |  
+     |  __hash__(self, /)
+     |      Return hash(self).
+     |  
+     |  __iter__(self, /)
+     |      Implement iter(self).
+     |  
+     |  __le__(self, value, /)
+     |      Return self<=value.
+     |  
+     |  __len__(self, /)
+     |      Return len(self).
+     |  
+     |  __lt__(self, value, /)
+     |      Return self<value.
+     |  
+     |  __mod__(self, value, /)
+     |      Return self%value.
+     |  
+     |  __mul__(self, value, /)
+     |      Return self*value.
+     |  
+     |  __ne__(self, value, /)
+     |      Return self!=value.
+     |  
+     |  __repr__(self, /)
+     |      Return repr(self).
+     |  
+     |  __rmod__(self, value, /)
+     |      Return value%self.
+     |  
+     |  __rmul__(self, value, /)
+     |      Return value*self.
+     |  
+     |  __sizeof__(self, /)
+     |      Return the size of the string in memory, in bytes.
+     |  
+     |  __str__(self, /)
+     |      Return str(self).
+     |  
+     |  capitalize(self, /)
+     |      Return a capitalized version of the string.
+     |      
+     |      More specifically, make the first character have upper case and the rest lower
+     |      case.
+     |  
+     |  casefold(self, /)
+     |      Return a version of the string suitable for caseless comparisons.
+     |  
+     |  center(self, width, fillchar=' ', /)
+     |      Return a centered string of length width.
+     |      
+     |      Padding is done using the specified fill character (default is a space).
+     |  
+     |  count(...)
+     |      S.count(sub[, start[, end]]) -> int
+     |      
+     |      Return the number of non-overlapping occurrences of substring sub in
+     |      string S[start:end].  Optional arguments start and end are
+     |      interpreted as in slice notation.
+     |  
+     |  encode(self, /, encoding='utf-8', errors='strict')
+     |      Encode the string using the codec registered for encoding.
+     |      
+     |      encoding
+     |        The encoding in which to encode the string.
+     |      errors
+     |        The error handling scheme to use for encoding errors.
+     |        The default is 'strict' meaning that encoding errors raise a
+     |        UnicodeEncodeError.  Other possible values are 'ignore', 'replace' and
+     |        'xmlcharrefreplace' as well as any other name registered with
+     |        codecs.register_error that can handle UnicodeEncodeErrors.
+     |  
+     |  endswith(...)
+     |      S.endswith(suffix[, start[, end]]) -> bool
+     |      
+     |      Return True if S ends with the specified suffix, False otherwise.
+     |      With optional start, test S beginning at that position.
+     |      With optional end, stop comparing S at that position.
+     |      suffix can also be a tuple of strings to try.
+     |  
+     |  expandtabs(self, /, tabsize=8)
+     |      Return a copy where all tab characters are expanded using spaces.
+     |      
+     |      If tabsize is not given, a tab size of 8 characters is assumed.
+     |  
+     |  find(...)
+     |      S.find(sub[, start[, end]]) -> int
+     |      
+     |      Return the lowest index in S where substring sub is found,
+     |      such that sub is contained within S[start:end].  Optional
+     |      arguments start and end are interpreted as in slice notation.
+     |      
+     |      Return -1 on failure.
+     |  
+     |  format(...)
+     |      S.format(*args, **kwargs) -> str
+     |      
+     |      Return a formatted version of S, using substitutions from args and kwargs.
+     |      The substitutions are identified by braces ('{' and '}').
+     |  
+     |  format_map(...)
+     |      S.format_map(mapping) -> str
+     |      
+     |      Return a formatted version of S, using substitutions from mapping.
+     |      The substitutions are identified by braces ('{' and '}').
+     |  
+     |  index(...)
+     |      S.index(sub[, start[, end]]) -> int
+     |      
+     |      Return the lowest index in S where substring sub is found, 
+     |      such that sub is contained within S[start:end].  Optional
+     |      arguments start and end are interpreted as in slice notation.
+     |      
+     |      Raises ValueError when the substring is not found.
+     |  
+     |  isalnum(self, /)
+     |      Return True if the string is an alpha-numeric string, False otherwise.
+     |      
+     |      A string is alpha-numeric if all characters in the string are alpha-numeric and
+     |      there is at least one character in the string.
+     |  
+     |  isalpha(self, /)
+     |      Return True if the string is an alphabetic string, False otherwise.
+     |      
+     |      A string is alphabetic if all characters in the string are alphabetic and there
+     |      is at least one character in the string.
+     |  
+     |  isascii(self, /)
+     |      Return True if all characters in the string are ASCII, False otherwise.
+     |      
+     |      ASCII characters have code points in the range U+0000-U+007F.
+     |      Empty string is ASCII too.
+     |  
+     |  isdecimal(self, /)
+     |      Return True if the string is a decimal string, False otherwise.
+     |      
+     |      A string is a decimal string if all characters in the string are decimal and
+     |      there is at least one character in the string.
+     |  
+     |  isdigit(self, /)
+     |      Return True if the string is a digit string, False otherwise.
+     |      
+     |      A string is a digit string if all characters in the string are digits and there
+     |      is at least one character in the string.
+     |  
+     |  isidentifier(self, /)
+     |      Return True if the string is a valid Python identifier, False otherwise.
+     |      
+     |      Use keyword.iskeyword() to test for reserved identifiers such as "def" and
+     |      "class".
+     |  
+     |  islower(self, /)
+     |      Return True if the string is a lowercase string, False otherwise.
+     |      
+     |      A string is lowercase if all cased characters in the string are lowercase and
+     |      there is at least one cased character in the string.
+     |  
+     |  isnumeric(self, /)
+     |      Return True if the string is a numeric string, False otherwise.
+     |      
+     |      A string is numeric if all characters in the string are numeric and there is at
+     |      least one character in the string.
+     |  
+     |  isprintable(self, /)
+     |      Return True if the string is printable, False otherwise.
+     |      
+     |      A string is printable if all of its characters are considered printable in
+     |      repr() or if it is empty.
+     |  
+     |  isspace(self, /)
+     |      Return True if the string is a whitespace string, False otherwise.
+     |      
+     |      A string is whitespace if all characters in the string are whitespace and there
+     |      is at least one character in the string.
+     |  
+     |  istitle(self, /)
+     |      Return True if the string is a title-cased string, False otherwise.
+     |      
+     |      In a title-cased string, upper- and title-case characters may only
+     |      follow uncased characters and lowercase characters only cased ones.
+     |  
+     |  isupper(self, /)
+     |      Return True if the string is an uppercase string, False otherwise.
+     |      
+     |      A string is uppercase if all cased characters in the string are uppercase and
+     |      there is at least one cased character in the string.
+     |  
+     |  join(self, iterable, /)
+     |      Concatenate any number of strings.
+     |      
+     |      The string whose method is called is inserted in between each given string.
+     |      The result is returned as a new string.
+     |      
+     |      Example: '.'.join(['ab', 'pq', 'rs']) -> 'ab.pq.rs'
+     |  
+     |  ljust(self, width, fillchar=' ', /)
+     |      Return a left-justified string of length width.
+     |      
+     |      Padding is done using the specified fill character (default is a space).
+     |  
+     |  lower(self, /)
+     |      Return a copy of the string converted to lowercase.
+     |  
+     |  lstrip(self, chars=None, /)
+     |      Return a copy of the string with leading whitespace removed.
+     |      
+     |      If chars is given and not None, remove characters in chars instead.
+     |  
+     |  partition(self, sep, /)
+     |      Partition the string into three parts using the given separator.
+     |      
+     |      This will search for the separator in the string.  If the separator is found,
+     |      returns a 3-tuple containing the part before the separator, the separator
+     |      itself, and the part after it.
+     |      
+     |      If the separator is not found, returns a 3-tuple containing the original string
+     |      and two empty strings.
+     |  
+     |  replace(self, old, new, count=-1, /)
+     |      Return a copy with all occurrences of substring old replaced by new.
+     |      
+     |        count
+     |          Maximum number of occurrences to replace.
+     |          -1 (the default value) means replace all occurrences.
+     |      
+     |      If the optional argument count is given, only the first count occurrences are
+     |      replaced.
+     |  
+     |  rfind(...)
+     |      S.rfind(sub[, start[, end]]) -> int
+     |      
+     |      Return the highest index in S where substring sub is found,
+     |      such that sub is contained within S[start:end].  Optional
+     |      arguments start and end are interpreted as in slice notation.
+     |      
+     |      Return -1 on failure.
+     |  
+     |  rindex(...)
+     |      S.rindex(sub[, start[, end]]) -> int
+     |      
+     |      Return the highest index in S where substring sub is found,
+     |      such that sub is contained within S[start:end].  Optional
+     |      arguments start and end are interpreted as in slice notation.
+     |      
+     |      Raises ValueError when the substring is not found.
+     |  
+     |  rjust(self, width, fillchar=' ', /)
+     |      Return a right-justified string of length width.
+     |      
+     |      Padding is done using the specified fill character (default is a space).
+     |  
+     |  rpartition(self, sep, /)
+     |      Partition the string into three parts using the given separator.
+     |      
+     |      This will search for the separator in the string, starting at the end. If
+     |      the separator is found, returns a 3-tuple containing the part before the
+     |      separator, the separator itself, and the part after it.
+     |      
+     |      If the separator is not found, returns a 3-tuple containing two empty strings
+     |      and the original string.
+     |  
+     |  rsplit(self, /, sep=None, maxsplit=-1)
+     |      Return a list of the words in the string, using sep as the delimiter string.
+     |      
+     |        sep
+     |          The delimiter according which to split the string.
+     |          None (the default value) means split according to any whitespace,
+     |          and discard empty strings from the result.
+     |        maxsplit
+     |          Maximum number of splits to do.
+     |          -1 (the default value) means no limit.
+     |      
+     |      Splits are done starting at the end of the string and working to the front.
+     |  
+     |  rstrip(self, chars=None, /)
+     |      Return a copy of the string with trailing whitespace removed.
+     |      
+     |      If chars is given and not None, remove characters in chars instead.
+     |  
+     |  split(self, /, sep=None, maxsplit=-1)
+     |      Return a list of the words in the string, using sep as the delimiter string.
+     |      
+     |      sep
+     |        The delimiter according which to split the string.
+     |        None (the default value) means split according to any whitespace,
+     |        and discard empty strings from the result.
+     |      maxsplit
+     |        Maximum number of splits to do.
+     |        -1 (the default value) means no limit.
+     |  
+     |  splitlines(self, /, keepends=False)
+     |      Return a list of the lines in the string, breaking at line boundaries.
+     |      
+     |      Line breaks are not included in the resulting list unless keepends is given and
+     |      true.
+     |  
+     |  startswith(...)
+     |      S.startswith(prefix[, start[, end]]) -> bool
+     |      
+     |      Return True if S starts with the specified prefix, False otherwise.
+     |      With optional start, test S beginning at that position.
+     |      With optional end, stop comparing S at that position.
+     |      prefix can also be a tuple of strings to try.
+     |  
+     |  strip(self, chars=None, /)
+     |      Return a copy of the string with leading and trailing whitespace removed.
+     |      
+     |      If chars is given and not None, remove characters in chars instead.
+     |  
+     |  swapcase(self, /)
+     |      Convert uppercase characters to lowercase and lowercase characters to uppercase.
+     |  
+     |  title(self, /)
+     |      Return a version of the string where each word is titlecased.
+     |      
+     |      More specifically, words start with uppercased characters and all remaining
+     |      cased characters have lower case.
+     |  
+     |  translate(self, table, /)
+     |      Replace each character in the string using the given translation table.
+     |      
+     |        table
+     |          Translation table, which must be a mapping of Unicode ordinals to
+     |          Unicode ordinals, strings, or None.
+     |      
+     |      The table must implement lookup/indexing via __getitem__, for instance a
+     |      dictionary or list.  If this operation raises LookupError, the character is
+     |      left untouched.  Characters mapped to None are deleted.
+     |  
+     |  upper(self, /)
+     |      Return a copy of the string converted to uppercase.
+     |  
+     |  zfill(self, width, /)
+     |      Pad a numeric string with zeros on the left, to fill a field of the given width.
+     |      
+     |      The string is never truncated.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  maketrans(x, y=None, z=None, /)
+     |      Return a translation table usable for str.translate().
+     |      
+     |      If there is only one argument, it must be a dictionary mapping Unicode
+     |      ordinals (integers) or characters to Unicode ordinals, strings or None.
+     |      Character keys will be then converted to ordinals.
+     |      If there are two arguments, they must be strings of equal length, and
+     |      in the resulting dictionary, each character in x will be mapped to the
+     |      character at the same position in y. If there is a third argument, it
+     |      must be a string, whose characters will be mapped to None in the result.
+    
+    
 
 <b><u> Note : </b></u>  There's a difference between **str** and **string** in python. Especially if you consider <b>help("str")</b> and <b>help("string")</b>. <br><br>
 **str** is a datatype (It is also a **class** but more on "class" later) it is used to work with letters and symbols while <b>string</b> is a module/library which consists of added functions to work with strings {such as <b>string.lower</b> gives as a string from a to z "abcde....xyz"}. More info on this can be found [here](https://stackoverflow.com/questions/2026038/relationship-between-string-module-and-str). )
@@ -1158,7 +1589,8 @@ Few points before we begin with string functions and methods :
 
 
 
-<br><br><b><u>vi.) Methods used with str</u> :</b><br>
+<a id="9C vi. String methods"></a>
+<br><br><b><u>(vi.) Methods used with str</u> :</b><br>
  Now, let's get started with the methods of <code>str</code> and see how to use them.<br> 
  <br><b>NOTE : </b>Make sure the first cell below is run for all the other cells to work as they use the common variable 'z' to run, if the first cell below isn't run all will give errors.<br><br>
 
@@ -1183,7 +1615,8 @@ print (z)   #but it isn't permanent like concatenation either
 
 ```python
 #Make sure you have run the above 2 cells to see the output without error here
-print (z + " have lost the match") #As you can see using + operator for concatenation method or __add__ is the same thing
+print (z + " have lost the match") 
+#As you can see using + operator for concatenation method or __add__ is the same thing
 ```
 
     power rangers have lost the match
@@ -1228,6 +1661,9 @@ print (z.__eq__("rangers power"))
 print(z.__eq__("power rangers"))
 ```
 
+    True
+    
+
 
 ```python
 #__ge__stands for 'greater than equal to'
@@ -1236,16 +1672,26 @@ print("hello".__ge__("hello"))
 #"string_values" itself.
 ```
 
+    True
+    
+
 
 ```python
 print("hello".__ge__("hell"))  #hello>=hell (True)
 ```
 
+    True
+    
+
 
 ```python
-print("hello".__ge__("hello world"))  #Don't forget the dot/period operator between the methods and the string/variables/object
+print("hello".__ge__("hello world"))  
+#Don't forget the dot/period operator between the methods and the string/variables/object
 #here, "hello">="hello world" (False)
 ```
+
+    False
+    
 
 
 ```python
@@ -1254,10 +1700,17 @@ print ("hello".__gt__("hello"))  #hello>hello (False) __gt__method
 print ("hello".__ge__("hello"))  #hello>=hello (True) __ge__method
 ```
 
+    False
+    True
+    
+
 
 ```python
-print("hi".__gt__("h")
+print("hi".__gt__("h"))
 ```
+
+    True
+    
 
 
 ```python
@@ -1270,6 +1723,10 @@ print (hash(z))  #both will give the same output
 #Hash values are just integers which are used to compare dictionary keys during a dictionary lookup quickly.
 #Internally, hash() method calls __hash__() method of an object which are set by default for any object.
 ```
+
+    -1631650316125606053
+    -1631650316125606053
+    
 
 
 ```python
@@ -1299,6 +1756,42 @@ print (next(n))   #j = "hey" has only 3 characters, so it can be iterated only 3
 
 ```
 
+    	v variable - 
+    
+    h
+    e
+    y
+    
+    	n variable - 
+    
+    h
+    e
+    y
+    
+
+
+    ---------------------------------------------------------------------------
+
+    StopIteration                             Traceback (most recent call last)
+
+    <ipython-input-119-e4aeb426dba6> in <module>
+         18 print (next(n))   #2nd iteration
+         19 print (next(n))   #3rd iteration
+    ---> 20 print (next(n))   #j = "hey" has only 3 characters, so it can be iterated only 3 times, this 4th iteration will cause an error
+         21 
+         22 
+    
+
+    StopIteration: 
+
+
+<a id="9C vi.> Len and type"></a>
+<br><b>Some important functions in Python : (len & type)</b><br><br>
+<li> <u> len() </u> : It tells the length of a string or container data-types like list, tuples, sets, etc.
+<li> <u> type() </u> : It tells us the data-type of the value passed inside the type() function.
+<br><br>    
+    <b>Eg : </b>
+
 
 ```python
 #len() or .__len__()
@@ -1317,82 +1810,12 @@ print (h.__len__())
 
 ```
 
-
-```python
-#__le__ method stands for "less than equal to" and is similar to __eq__,__gt__ and __ge__ methods
-print ("h".__le__("hey"))
-h = "meh"
-print (h.__le__("m"))   
-print (h.__le__("meh"))  #meh>=meh
-```
-
-
-```python
-#__lt__ method stands for "less than" and is similar to __eq__,__ge__,__gt__ and __le__ methods
-h = "meh"
-print(h.__lt__(h)) #meh<meh (False)
-print (h.__lt__(h[0]*5)) #meh<mmmmm (True)
-```
-
-
-```python
-#__mul__ stands for Multiply and is used to multiply a string multiple times.
-print ("hey! ".__mul__(5)) #Multiply 'hey' 5 times
-#It is the same as :       #Multiply 'hey' 7 times
-print ("hey! "*7)
-
-print (len("hey"*10))  #Some improvisation examples with len() and .__len__
-print (len("hey".__mul__(19)))
-print ("hey".__mul__(7).__len__())  
-```
-
-
-```python
-#__ne__ stands for 'Not equal to' and is opposite of  __eq__ method (equal to method)
-a = "apple"
-print (a.__ne__(a[0]))
-print (a.__ne__(a[:]))  #here a[:],a and "apple" are the same thing which is "apple" and hence, we get false as "apple" is equal to apple
-print (a.__ne__(a))
-print (a.__ne__("apple"))
-
-#but
-print (a.__eq__(a[:]))  #as "apple" is equal to "apple"
-
-#IMPORTANT :
-#Kindly try not to 
-
-```
-
-
-```python
-#__repr__ method, It is used to put a string in single quotes and is useful while maintaining those single quotes during print statement
-print ("And he quoted:","The world is burning slowly~".__repr__(),"and left with a sad expression.")
-print ("Hey".__repr__()) #with __repr__
-print ("Hey")            #without __repr__
-```
-
-
-```python
-#__sizeof__ method returns the size of the string in memory, in bytes.
-
-a = "apple"
-print (a.__sizeof__())
-print ("not apple".__sizeof__())
-
-```
-
-
-```python
-#__str__ or str() method : Converts any datatype to a string value
-a = 9
-b = a.__str__()  #Converting int to str datatype
-print (b)
-c = str(a)       #Same thing but using str() instead
-print (c)
-print (b+c+" pizzas didn't fill his stomach")  #string concatenation
-print (a+b)      #This will cause error as variable 'a' is still holding on to integer value of 9
-                 #and concatenation of string and integers is not possible.
-```
+    23
+    25
+    33
+    5
+    3
+    
 
 
 ```python
@@ -1407,7 +1830,151 @@ print (type(b))
 print (type("Funny"))
 ```
 
-<br><br><b><u>vii.) Functions used with str</u> :</b>
+    <class 'str'>
+    <class 'int'>
+    <class 'float'>
+    <class 'str'>
+    
+
+---
+Let's continue with <b>str</b> functions once again now that we have discussed <b>len()</b> and <b>type()</b> functions.
+
+---
+<br>
+
+
+```python
+#__le__ method stands for "less than equal to" and is similar to __eq__,__gt__ and __ge__ methods
+print ("h".__le__("hey"))
+h = "meh"
+print (h.__le__("m"))   
+print (h.__le__("meh"))  #meh>=meh
+```
+
+    True
+    False
+    True
+    
+
+
+```python
+#__lt__ method stands for "less than" and is similar to __eq__,__ge__,__gt__ and __le__ methods
+h = "meh"
+print(h.__lt__(h)) #meh<meh (False)
+print (h.__lt__(h[0]*5)) #meh<mmmmm (True)
+```
+
+    False
+    True
+    
+
+
+```python
+#__mul__ stands for Multiply and is used to multiply a string multiple times.
+print ("hey! ".__mul__(5)) #Multiply 'hey' 5 times
+#It is the same as :       #Multiply 'hey' 7 times
+print ("hey! "*7)
+
+print (len("hey"*10))  #Some improvisation examples with len() and .__len__
+print (len("hey".__mul__(19)))
+print ("hey".__mul__(7).__len__())  
+```
+
+    hey! hey! hey! hey! hey! 
+    hey! hey! hey! hey! hey! hey! hey! 
+    30
+    57
+    21
+    
+
+
+```python
+#__ne__ stands for 'Not equal to' and is opposite of  __eq__ method (equal to method)
+a = "apple"
+print (a.__ne__(a[0]))
+print (a.__ne__(a[:]))  
+#here a[:],a and "apple" are the same thing which is "apple" and hence, we get false as "apple" is equal to apple
+print (a.__ne__(a))
+print (a.__ne__("apple"))
+
+#but
+print (a.__eq__(a[:]))  #as "apple" is equal to "apple"
+
+#IMPORTANT :
+#Kindly try not to 
+
+```
+
+    True
+    False
+    False
+    False
+    True
+    
+
+
+```python
+#__repr__ method, 
+#It is used to put a string in single quotes and is useful while maintaining those single quotes during print statement
+print ("And he quoted:","The world is burning slowly~".__repr__(),"and left with a sad expression.")
+print ("Hey".__repr__()) #with __repr__
+print ("Hey")            #without __repr__
+```
+
+    And he quoted: 'The world is burning slowly~' and left with a sad expression.
+    'Hey'
+    Hey
+    
+
+
+```python
+#__sizeof__ method returns the size of the string in memory, in bytes.
+
+a = "apple"
+print (a.__sizeof__())
+print ("not apple".__sizeof__())
+
+```
+
+    54
+    58
+    
+
+
+```python
+#__str__ or str() method : Converts any datatype to a string value
+a = 9
+b = a.__str__()  #Converting int to str datatype
+print (b)
+c = str(a)       #Same thing but using str() instead
+print (c)
+print (b+c+" pizzas didn't fill his stomach")  #string concatenation
+print (a+b)      #This will cause error as variable 'a' is still holding on to integer value of 9
+                 #and concatenation of string and integers is not possible.
+```
+
+    9
+    9
+    99 pizzas didn't fill his stomach
+    
+
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-128-8355d8a89d14> in <module>
+          6 print (c)
+          7 print (b+c+" pizzas didn't fill his stomach")  #string concatenation
+    ----> 8 print (a+b)      #This will cause error as variable 'a' is still holding on to integer value of 9
+          9                  #and concatenation of string and integers is not possible.
+    
+
+    TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+<a id="9C vii.String functions"></a>
+<br><br><b><u>vii.) Functions used with str</u> :</b><br>
 When we run <code>help(str)</code>, after scrolling down a bit you will see methods with the double underscores on both sides, and after that comes functions which use the (.) dot operator.<br>
 Something like this :<br>
 <code><pre>capitalize(...)
@@ -1440,6 +2007,12 @@ print ("this is a text. this is an another text".capitalize())
 #Python subsitutes the string value of the variable in the back-end for us.
 ```
 
+    This is a text
+    this is a text
+    This is a text
+    This is a text. this is an another text
+    
+
 
 ```python
 #center() function : Takes two parameters and one arguement (Meaning only one parameter is compulsory to be filled inside the paranthesis)
@@ -1461,6 +2034,17 @@ print ("Width is 7 : ",s.center(7,"$"))     #adds dollar symbols on both sides t
 print ("Width is 14 : ",s.center(14,"$"))   #adds 4 $ symbols on left and 5 $ symbols on right
 ```
 
+         hello     
+         hello     
+    $$$$$hello$$$$$
+    15
+    Width is 4 :  hello
+    Width is 5 :  hello
+    Width is 6 :  hello$
+    Width is 7 :  $hello$
+    Width is 14 :  $$$$hello$$$$$
+    
+
 
 ```python
 #count() function : Takes one parameter which is a string value in the paranthesis
@@ -1475,6 +2059,13 @@ print (s.count("he")) #Returns the count of how many times "he" appears in "hell
 print ("mississippi".count("s"))  #Returns 4 as "s" appears 4 times in "mississippi"
 ```
 
+    2
+    0
+    1
+    1
+    4
+    
+
 
 ```python
 #endswith() function : Accepts one string value as a parameter in the paranthesis
@@ -1484,6 +2075,10 @@ print (s.endswith("o"))   #Accepts one string value in the paranthesis as the pa
 
 print (s.endswith("s"))
 ```
+
+    True
+    False
+    
 
 
 ```python
@@ -1501,6 +2096,13 @@ print ("abcabcabc".find("b"))  #returns 1 as letter "b" is spotted at index 1 fi
 #the letter "b" first, that is the first instance of letter "b" in "abcabcabc"
 ```
 
+    2
+    0
+    -1
+    -1
+    1
+    
+
 
 ```python
 #index() function : Accepts one string value as the parameter inside the paranthesis
@@ -1515,6 +2117,26 @@ print (a.index("l"))  #returns 2 as the first instance of "l" or the lowest inde
 print (a.index("z"))  #returns "ValueError" as "z" is not present in "hello". Here, find() function would have returned -1 instead of an error
                       #as we can see from the example above.
 ```
+
+    0
+    4
+    2
+    
+
+
+    ---------------------------------------------------------------------------
+
+    ValueError                                Traceback (most recent call last)
+
+    <ipython-input-134-4963a527ebcf> in <module>
+          8 print (a.index("o"))  #returns 4 as "o" is located at index 4 in "hello"
+          9 print (a.index("l"))  #returns 2 as the first instance of "l" or the lowest index of "l" is at index 2 in "hello"
+    ---> 10 print (a.index("z"))  #returns "ValueError" as "z" is not present in "hello". Here, find() function would have returned -1 instead of an error
+         11                       #as we can see from the example above.
+    
+
+    ValueError: substring not found
+
 
 
 ```python
@@ -1532,6 +2154,12 @@ print (b.isalnum())   #Returns True as all the letters in variable b are alphabe
 print (c.isalnum())   #Returns True as all the letters in variable c are numbers
 print (d.isalnum())   #Returns False as whitspace between "hello" and "123" is neither a number nor an alphabet
 ```
+
+    True
+    True
+    True
+    False
+    
 
 
 ```python
@@ -1552,6 +2180,13 @@ print (d.isalpha())   #Returns False as whitspace between "hello" and "hello" is
 print (e.isalpha())   #Returns False as "-" in "hello-world" is not an alphabet.
 ```
 
+    True
+    False
+    False
+    False
+    False
+    
+
 
 ```python
 #isdecimal() function : Accepts no values as parameters in the paranthesis
@@ -1570,6 +2205,12 @@ print (c.isdecimal())   #Not decimal
 print (d.isdecimal())   #This is decimal as decimal system has numbers from 0 to 9 only.
 ```
 
+    False
+    False
+    False
+    True
+    
+
 
 ```python
 #isdigit() function : Takes no parameter in paranthesis
@@ -1585,6 +2226,12 @@ print (c.isdigit())   #Not digit
 print (d.isdigit())   #This is a digit.
 ```
 
+    False
+    False
+    False
+    True
+    
+
 
 ```python
 #isnumeric() function : 
@@ -1595,6 +2242,12 @@ print ("1234".isnumeric())
 print ("abc21".isnumeric())
 print ('一二三四五'.isdigit())
 ```
+
+    True
+    True
+    False
+    False
+    
 
 
 ```python
@@ -1612,6 +2265,12 @@ print (c.islower())
 print (d.islower())
 ```
 
+    True
+    False
+    False
+    True
+    
+
 
 ```python
 #isspace() function :
@@ -1625,6 +2284,11 @@ print (a.isspace())
 print (b.isspace())
 print (c.isspace())
 ```
+
+    False
+    True
+    True
+    
 
 
 ```python
@@ -1643,6 +2307,13 @@ print (c.isupper())
 print (d.isupper())
 print (e.isupper())
 ```
+
+    True
+    False
+    True
+    False
+    False
+    
 
 
 ```python
@@ -1880,10 +2551,10 @@ These are one of the most commonly used functions of str but there are a few mor
 In your python prompt window.
 <br><br>
 
-<hr><br>
-
-### <u>**d.) Boolean Data type (True or False)**</u><br>
-This datatype has only two values which are <code><b>True</code></b> and <code><b>False</code></b> (mind the case-sensitivity, T in True is always capital and F in False). <code>True</code> and <code>False</code> are reserved keywords as well which are used usually with conditional statements (if-else) to check whether a given condition is <b>True</b> or <b>False</b>. I guess it will be clearer with examples : <br>
+<hr>
+<a id="9D Boolean data type"></a>
+<h3> <u><b>(d.) Boolean Data type (True or False)</b></u></h3><br>
+This datatype has only two values which are <code><b>True</b></code> and <code><b>False</b></code> (mind the case-sensitivity, T in True is always capital and F in False). <code>True</code> and <code>False</code> are reserved keywords as well which are used usually with conditional statements (if-else) to check whether a given condition is <b>True</b> or <b>False</b>. I guess it will be clearer with examples : <br>
 
 
 
@@ -1920,6 +2591,8 @@ print (a.startswith("H")) #False
     
 
 <hr><br>
+<a id="9D i. Comparison Operators"></a>
+<b><u>(i.) Comparison Operators in Python</b></u><br>
 Bool or Boolean values are usually used with <b>Comparison Operators</b> which are also used in "In-equality algebra" in mathematics. These comparison operators are the same as the ones in C and C++ language. Let's go through them all of them :
 <br>
 <pre>
@@ -1929,7 +2602,7 @@ Bool or Boolean values are usually used with <b>Comparison Operators</b> which a
 4. <code><b><</code></b>	If the value of left operand is less than the value of right operand, then condition becomes true.
 5. <code><b>>=</code></b>	If the value of left operand is greater than or equal to the value of right operand, then condition becomes true.
 6. <code><b><=</code></b>	If the value of left operand is less than or equal to the value of right operand, then condition becomes true.
-</pre><br>Eg :
+    </pre><br><b>Eg :</b>
 
 
 ```python
@@ -1962,9 +2635,9 @@ print ("14 : ",1.2<= 1.1)  #False
     14 :  False
     
 
-<hr><br>
-
-### <u>**e.) Complex Numbers Data type (True or False)**</u><br>
+<hr>
+<a id="9E Complex data type"></a>
+<h3><u><b>(e.) Complex Numbers Data type (True or False)</b></u></h3><br>
 In Mathematics, we use complex numbers to deal with [imaginary numbers.](https://www.mathsisfun.com/numbers/imaginary-numbers.html) Imaginary Numbers are used to denote numbers such as square root of -1 or any negative no.<br>
 Imaginary no. is of the form, <code>REAL NO. + IMAGINARY No.</code>, in python, we use <code>Int Value/float value + j</code> to denote the same. Here, "j" is not a variable as it is on the right hand side of the assignment operator (=).<br>
 <b>Eg : </b>
@@ -2016,9 +2689,9 @@ To work with complex no.s, you need to know the domain of imaginary no.s in math
 imaginary no.s aren't really used for practical purposes and hence aren't really considered a very important mathetmatic
 topic to be aware of.
 
-<hr><br>
-
-### <u>**e.) None Data type (None)**</u><br>
+<hr>
+<a id="9F None data type"></a>
+<h3><u><b>(f.) None Data type (None)</b></u></h3><br>
 None Data Type in python is used to denote the null value. It is declared in the following way:
 
 
@@ -2033,10 +2706,10 @@ print (a)
 The <code><b>None</b></code> Data-type is used as a place-holder for variables that you aren't sure of what value to assign yet. You can use them to assign them a null value and wait till you get a proper value from an user. Hence,
 many times in user-defined functions, parameters are passed with <b>None</b>.<br>
 <br>Some important facts about None Data-type:
-* None is not to be confused with True or False. They are different things.
-* None is not equal to zero (0). 0 is an integer data-type and has mathemetical importance. None is Void.
-* None is not an empty string. As mentioned before, empty string is denoted as, a="".
-* Comparing None to anything will always return False except None itself. Eg:
+<ul><li> None is not to be confused with True or False. They are different things. </li>
+<li> None is not equal to zero (0). 0 is an integer data-type and has mathemetical importance. None is Void. </li>
+<li> None is not an empty string. As mentioned before, empty string is denoted as, a="". </li>
+<li> Comparing None to anything will always return False except None itself.</li></ul><br> Eg:
 
 
 ```python
@@ -2057,5 +2730,448 @@ print (a==" ")   #False, comparing to empty space
     False
     
 
+<br>
+<br>
+
+---
+<a id="10. Looping Statements in Python"></a>
+<h3><b>10. <u>Looping Statements in Python (For & While Loop)</h3></b></u>
 
 
+---
+<br><b><u>(i.) Need for Looping Statements </u> : </b><br>
+<a id="10. i Need for looping statements in python"></a>
+Loop Statements are special features of any good programming language as they allow a programmer to execute a block of code under the looping statement multiple times until a required condition is met. This helps us by not having to repeat and type the same piece of code again and again.<br>
+One thing to keep in mind is the <b>"Flow of Code"</b> meaning how the code is run by the python interpreter. Most beginners don't keep this in mind and mess up the output as they execute the wrong line of code at the wrong time causing common errors such as <b>"Index out of range"</b> (in case of arrays/list elements calling).
+
+<a id="10. ii For loop staments"></a>
+<br><br><b><u>(ii.) For loop Statements in Python (Syntax & Usage)</u> : </b><br><br>
+In C language, we wrote the code in the following way for FOR loops :<br>
+<code>for (i=0;i&lt;10;i++)
+                    {
+                       printf("%d",i);
+                       printf("\n");
+                    }
+</code>
+<br>
+* Here, variable "i" is known as the looping variable which keeps count of how many times a loop needs to run (here, i value starts from 0 goes to on 9 (as i<10 or i==9)).
+* <b>i++</b> us known as the increment operator, this is responsible for incrementing or increasing the value of "i" by 1 after each loop statement is executed. <b>i++</b> is equivalent of <b>i = i + 1</b>, in the first loop, <b>i = 0</b>, so <b>i = i + 1</b> becomes <b> i = 0 +1</b> so in next loop, <b>i = 1</b>, then "i" becomes <b>i = 1+1</b> or <b>i=2</b> in the next loop. This goes on until <b>i&lt;10</b>or <b>i = 9</b>.
+* The Curly Braces {} are responsible for executing the statements under the FOR loop mutliple times until the loop condition is meant. It tells the C compiler that until this for loop doesn't change from i=0 to i=9, keep repeating the block of code under {} which is <br>
+                    {
+                       printf("%d",i);
+                       printf("\n");
+                    }<br>
+  So these two printf() statements will be printed 10 times (i=0 to i=9 is 10 times worth of counting).
+
+  <br>
+  ---
+  <br>In Python, we use the [keyword](https://www.programiz.com/python-programming/keyword-list) <b>"for"</b> just as in C or C++ language to run a for loop but we also use another keyword called as <b>"in"</b> and function called as <b>range()</b> function with it. Hence, the for loop in python is very different than in C or C++ language.
+ <br>The basic syntax for <b>for loop</b> in python goes as : <br><br>
+ <code>for looping_variable in range(0,10):</code><br> 
+ <br>
+ Example of the C code above in python language would be the following :
+    
+
+
+```python
+for i in range(0,10):
+    print (i)
+    print ("\n")
+```
+
+    0
+    
+    
+    1
+    
+    
+    2
+    
+    
+    3
+    
+    
+    4
+    
+    
+    5
+    
+    
+    6
+    
+    
+    7
+    
+    
+    8
+    
+    
+    9
+    
+    
+    
+
+---
+So what is happening here?<br>
+<ul>
+<li> <b>"for"</b> is a keyword and is used by us to let python know that we are using a "for-loop". The characteristic of for loop is that, it has a beginning, an end and in some cases a skip value (more about these later). But, "for" is same as in C language, we type "for" and python interpreter knows okay a "for loop" is going to be executed here.</li>
+    
+<li> <b>looping_variable</b> here is "i", just how we had in C or C++ langauge. It can be any variable, it doesn't really matter. But make sure you are using the same variable and not some other variable if you want to use the changing values of "i" as in this case. Meaning, I used <b>print(i)</b> not print(k) or anything else, since only variable "i" is changing from values 0 to 9 not any other variable.</li>
+    
+<li> <b>"in"</b> is a keyword and is used with secondary or container data-types (list, arrays, tuples, sets, etc are such data-types) mostly to make python interpreter understand that we are talking about the values or elements insde this secondary data type. Understand it in the same way how you understand the english word "in". <Br><b>Eg:</b>The apples are "in" the basket.<br> Now this basket is the container data-type and using the keyword "in" you are going through Apple No. 1, Apple No. 2, etc until the basket gets over. This will be clearer with further examples of "for-loops" later.</li>
+<li> <b>range()</b> function is the most tricky one to understand but let's try our best to understand it. <b>range()</b> is a generator function, meaning it generates a collection or group of numbers containing integers values for a specific range. But on it's own it's not really a secondary-data type but more of it's own data-type called as "range" data-type which temporary holds the range of numbers. But on it's own, it's not useful, we need to [type-cast](https://techterms.com/definition/typecasting#:~:text=Terms%20%3A%20Typecasting%20Definition-,Typecasting,an%20integer%20to%20a%20string.) to a secondary data-type or use it in "for-loops" using keywords like "in" which give access to range of numbers held by this weird unusable data-type.<br><br>The arguments or parameters that range() function accepts are as follows : <br><br><code>range(starting_int_value, ending_int_value, skip_int_value)</code><br><br></li>
+    ** Here, <b>"start_int_value"</b> is the starting point of your range, i.e., where do you want to start your range from.<br>
+    ** Here, <b>"ending_int_value"</b> is the value you want to end your range at, but in range() function  will always return values upto <b>n-1</b> value of the "ending_int_value".<br>
+    ** Here, <b>"skip_int_value"</b> acts as the counter, i.e., the decrement or increment manager like how we had <b>i++</b> or <b>i--</b> in C or C++.<br><br>
+    Now, in this only <b>"ending_integer_value"</b> is an argument or a compulisory parameter to be passed inside the range() function and range() function will always return values upto <b>n-1</b> value of the <b>"ending_int_value"</b> as mentioned before. Obviously like most functions, you cannot pass range() function without any parameters or empty.<br><br> Let's try to understand this with an example (Kindly read the comments to understand deeply) :
+
+
+```python
+#EXAMPLE 1 : range()
+
+#Here, we will run range() function without passing no arguments or any parameter in it.
+
+print (range())   #see how we will get TypeError telling as range expected "1 argument" but got 0,
+                  #so we need to at least pass 1 value inside the paranthesis for it to make it work
+```
+
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-160-0e629a20b09d> in <module>
+          3 #Here, we will run range() function without passing no arguments or any parameter in it.
+          4 
+    ----> 5 print (range())   #see how we will get TypeError telling as range expected "1 argument" but got 0,
+          6                   #so we need to at least pass 1 value inside the paranthesis for it to make it work
+    
+
+    TypeError: range expected 1 arguments, got 0
+
+
+
+```python
+#EXAMPLE 2 : range(ending_float_value)
+
+#Here, we will pass the wrong data-type (float) instead of the right data type (int) inside the 
+#paranthesis of range() function and see how it goes.
+
+print (range(7.7))  #Obviously we will get a "TypeError" because, python expects you to enter an integer value
+                    #inside the range() function to make it work
+    
+#So at least one "integer" argument is required to make the range() function work properly. 
+```
+
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-161-956932f6f851> in <module>
+          4 #paranthesis of range() function and see how it goes.
+          5 
+    ----> 6 print (range(7.7))  #Obviously we will get a "TypeError" because, python expects you to enter an integer value
+          7                     #inside the range() function to make it work
+          8 
+    
+
+    TypeError: 'float' object cannot be interpreted as an integer
+
+
+
+```python
+#EXAMPLE 3 : range(ending_int_value)
+
+print (range(10))   #A range data-type will be outputted. This holds the value from 0 to 9 but we cannot access it
+                    #on it's own until we type-cast it to a secondary data-type like list or tuples
+                    #or use this function with for-loop and "in" keyword.
+
+
+print (type(range(10)))   #To check the data-type of range() function output.
+                          #The output is going to be class "range" or data-type range which is not useable on 
+                          #it's own.
+```
+
+
+```python
+
+#EXAMPLE 4 : range(ending_int_value) with type-casting to secondary data-type
+
+#Here, we type-cast or change the data-type from range data-type to a list and see the expanded range values inside it.
+
+print (list(range(10)))   #A list data-type will be outputted from 0 to 9 (where, 9 is n-1 of 10, if n = 10, 
+                          #then values will be printed till 9, not 10)
+
+#list() function is used to convert container data-types to a list data-type.
+
+#Notice how I haven't mentioned all the 3 parameters which are : "starting_int_value", "ending_int_value" and
+#"skip_int_value" and that I have only mentioned one parameter which is "ending_int_value" 
+#(Not the other parameters : start_int_value or skip_int_value as they aren't compulsory and range() function will work
+#without them as well but not without ending_int_value). Here, when you pass only 1 value inside the python takes it 
+#for "ending_int_value" only. 
+
+#Here, python itself adds a default value for "starting_int_value" and "skip_int_value" which are,
+# start_int_value = 0   (start from i=0 by default if nothing is mentioned)
+# skip_int_value = 1    (keep the increment at i++ or i=i+1 by default if nothing is mentioned)
+
+#Hence, that's why even though we don't mention it our range starts from 0 and is incremented by 1 only.
+```
+
+    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    
+
+---
+We can conclude one thing with the following above examples. <br>
+<b>range()</b> function needs at least <u>one "integer" argument</u> and has <u>two optional arguments</u> (also known as parameters).<br>
+Here, the one compulsory argument is the "ending_int_value" because python cannot decide where we want to end the range.<br>
+The other optional parameters (not arguments per say, but parameters) are "starting_int_value" and "skip_int_value"
+because even if you don't mention them, python by default sets, start_int_value = 0 and skip_int_value = 1.
+<br><b>Eg : </b>
+
+
+```python
+#EXAMPLE 5 : range(starting_int_value, ending_int_value, skip_int_value)
+
+#here, we will keep start_int_value = 0
+                    #end_int_value = 10
+                    #skip_int_value = 1 
+        
+print (list(range(0,10,1)))  #Notice how we get the same output as above example. 
+
+#This is because as I mentioned, python defaults start_int_value & skip_int_value 0 and 1 respectively even if 
+#you don't mention them.
+
+#But we can obviously change it as per our wishes by manually mentioning them. 
+#Check the next examples
+```
+
+    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    
+
+
+```python
+#EXAMPLE 6(a) : range(start_int_value, end_int_value)
+
+print (list(range(1,11)))  #Notice how I still haven't given 3 parameters but only 2.
+                           #Here, start_int_value = 1 (mentioned manually by me, but not compulsary)
+                           #Here, end_int_value = 11 (mentioned manually by me, but is compulsary. It will print till
+                                    #10 since, n-1 of 11 is 11-1=10)
+                           #Here, skip_int_value = 1 (set by python on its own to default value 1)
+            
+#Now since I have manually mentioned the start_int_value, python won't use the default value for start_int_value
+#which is 0.
+
+#ALso notice, how we get range from 1 to 10, not 0 to 11 or 0 to 10 as we get n-1 of 11 which is 10 and we mentioned
+#and as to why it begans with 1 and not 0, I already mentioned in the line above.
+```
+
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    
+
+
+```python
+#EXAMPLE 6(b) : range(start_int_value, end_int_value)
+
+print (list(range(11,1)))  #Notice how I still haven't given 3 parameters but only 2.
+                           #Here, start_int_value = 11 (mentioned manually by me, but not compulsary)
+                           #Here, end_int_value = 1 (mentioned manually by me, but is compulsary. It should print till 0
+                                    #coz n-1 of 1 is 1-1=0)
+                           #Here, skip_int_value = 1 (set by python on its own to default value 1)
+            
+#Now since I have manually mentioned the start_int_value, python won't use the default value for start_int_value
+#which is 0.
+
+#But, since the 
+   #start_int_value > end_int_value
+    #and the increment is by positive 1 (by default), we cannot decrease (going from 11 to 1 is descending order)
+    #hence python won't print anything as our generated list will be empty. (Refer to example 7(c) for more details)
+```
+
+    []
+    
+
+
+```python
+#EXAMPLE 7(a) : range(start_int_value, end_int_value,skip_int_value)
+
+print (list(range(2,21,2)))  #Here, I have given 3 parameters (all of them) so no default values will be used.
+                             #Here, start_int_value = 2 (begins at 2 since I manually set it)
+                             #Here, end_int_value = 21 (will print till 20 (n-1 of 21), set by me)
+                             #Here, skip_int_value = 2 (Here, the increment will now be by 2, i.e, i = i + 2,
+                                     #so it will skip by 2 and give us an even series, set by me manually)
+                
+#This is the multiplication table of 2.
+```
+
+    [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+    
+
+
+```python
+#EXAMPLE 7(b) : range(start_int_value, end_int_value,skip_int_value)
+
+print (list(range(3,31,3)))  #Here, I have given 3 parameters (all of them) so no default values will be used.
+                             #Here, start_int_value = 3 (begins at 3 since I manually set it)
+                             #Here, end_int_value = 31 (will print till 20 (n-1 of 31), set by me)
+                             #Here, skip_int_value = 3 (Here, the increment will now be by 3, i.e, i = i + 3,
+                                     #so it will skip by 3 and give us an odd series, set by me manually)
+                
+#This is the multiplication table of 3.
+```
+
+    [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+    
+
+
+```python
+#EXAMPLE 7(c) : range(start_int_value, end_int_value, skip_int_value)
+
+print (list(range(30,-31,-3))) #Here, I have given 3 parameters (all of them) so no default values will be used.
+                               #Here, start_int_value = 30 (begins at 30 since I manually set it)
+                               #Here, end_int_value = -31 (will print till -30 (n+1 of -31, -31+1= -30), set by me)
+                                        #In case of negative "end_int_value", it prints till n+1 of n, here, n = -31
+                                        #so, it will print till n+1 of it, i.e., -31 + 1 = -30.
+                               #Here, skip_int_value = -3 (Here, the decrement will now be by -3, i.e, i = i - 3,
+                                        #so it will skip by 3 and give us an odd negative series, set by me manually)
+```
+
+    [30, 27, 24, 21, 18, 15, 12, 9, 6, 3, 0, -3, -6, -9, -12, -15, -18, -21, -24, -27, -30]
+    
+
+
+```python
+#EXAMPLE 8(a): Implementing range() function with for-loops
+
+#We saw how to use range() functions with list() function but the same principle is used for "For-loop" as well.
+#As mentioned earlier, the keyword "in" helps us to access the unusable range of numbers that are in the range data type.
+#The "in" keyword kind of treats the range data-type as a temporary list and goes through each element or value 
+#from first index to the last index and then outputs them.
+
+#Eg:
+for i in range(30,-31,-3): #The colon (:) are equivalent of curly braces {} in C or C++ language.
+    print (i,end=" ")       #Notice the "indentation" of print() is inside the for-loop, the print() function isn't
+                           #directly under the for keyword, I have added a gap (4 spaces or 1 tab space to be exact)
+                           #to let python know that this print() function is related to the for loop and is to be
+                           #repeated until the for-loop is completed and that this print() function isn't to be
+                           #just printed once.
+                    
+                           #end=" " , refers to print in the same line and add a space.
+                                     #By default, everytime one loop is completed
+                                     #python will print the next integer value of "i" under the next line, but
+                                     #due to end=" ", it will print it in the same line and adds " " (an empty space)
+                                     #at the end of it.
+                                     #try only, print(i) and print(i,end="") and print (i,end="$") to see the difference. 
+
+    #This is wrong way to use indentation:
+    
+#for i in range(30,-31,-3):
+#print (i,end="")          #Notice how no extra tab space or spaces follow before the print() function so python
+                           #will interpret it as a statement that is independent of the for-loop statement
+                           #but a for-loop statement needs to have atleast one line of code under it
+                           #so we will get any error as here, python thinks that under for-loop we have no block of code
+                           #only.
+
+            
+#Notice how the output isn't surrounded by [] (square brackets) as in examples 4 to 7 as the output isn't a 
+#list data-type but just a range of numbers printed one after the other.
+#This is because we are using for-loop and "in" keyword.
+```
+
+    30 27 24 21 18 15 12 9 6 3 0 -3 -6 -9 -12 -15 -18 -21 -24 -27 -30 
+
+
+```python
+#EXAMPLE 8(b): Implementing for-loops with only 2 parameters (similar to example 6(a))
+
+for i in range(10,20):     #skip_int_value is set to "1" by default by python, since we haven't set any value manually
+    print (i)              #since, end=" " isn't used, all the values will be printed in next line.
+                           #and not in the same line.
+    
+    #Output is printed till n-1 of 20 which is 19.
+```
+
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    
+
+<a id="10. iii Nested for loop"></a>
+<br><b><u>(iii.) Nested For loop Statements </u> : </b><br><br>
+Nested "for-loops" refers to an inner for-loop inside an outer for-loop. This is usually done to execute matrix problems (problems containing 2D dimension, meaning row and columns, etc). Here, the inner for-loop is used for transvering or for travelling through the columns (From left to right, one column after another) while the outer for-loop is used for going to next row (understand it like going to next line of a table).<br>
+<br><b>Eg : </b>
+
+
+```python
+#Printing multiplication table from 2 to 4.
+
+for i in range(2,5):
+    #This is the outer loop
+    print ("\nThe table of %d is : "%(i))   #Here, %d is acting as a place-holder for printing values of i
+    for j in range(1,11):
+        #This is the inner loop
+        print ("\t%d x %d = %d"%(i,j,i*j))  #in first left-most %d, value of "i" will be printed
+                                            #in second mid %d, value "j" will be printed
+                                            #in last right-most %d, value of i*j will be printed
+                
+#Here, the inner-loop (looping_variable "j") will run first from 1 to 10 values while the value of "i"
+#from outer-loop will remain the same.
+     #First loop -> when i=2 (since, start_int_value of outer loop is "2"), j will change from 1 to 10.
+     #Second loop -> when i=3 ("i" gets incremented by 1), j will once again gets initialized from 1 and get incremented
+                      #till 10.
+     #third loop -> when i=4 (last loop as n-1 of 5 is 4, and 5 is the end_int_value of outer loop)
+                    #variable "j" will change from 1 to 10 again.
+        
+#Understand that only the outer loop is getting looped "thrice", hence three loops, but within each of these 3 loops,
+#the inner loop is looped 10 times (from 1 to 10), so the inner loop technically 
+#runs 3*10 = 30 times (outer_loop_count x inner_loop_count = total_inner_looop_count)
+```
+
+    
+    The table of 2 is : 
+    	2 x 1 = 2
+    	2 x 2 = 4
+    	2 x 3 = 6
+    	2 x 4 = 8
+    	2 x 5 = 10
+    	2 x 6 = 12
+    	2 x 7 = 14
+    	2 x 8 = 16
+    	2 x 9 = 18
+    	2 x 10 = 20
+    
+    The table of 3 is : 
+    	3 x 1 = 3
+    	3 x 2 = 6
+    	3 x 3 = 9
+    	3 x 4 = 12
+    	3 x 5 = 15
+    	3 x 6 = 18
+    	3 x 7 = 21
+    	3 x 8 = 24
+    	3 x 9 = 27
+    	3 x 10 = 30
+    
+    The table of 4 is : 
+    	4 x 1 = 4
+    	4 x 2 = 8
+    	4 x 3 = 12
+    	4 x 4 = 16
+    	4 x 5 = 20
+    	4 x 6 = 24
+    	4 x 7 = 28
+    	4 x 8 = 32
+    	4 x 9 = 36
+    	4 x 10 = 40
+    
+
+---
+Like this we can have multiple nested loops until required. As demonstrated from above example, you can see that examples 7(a) and 7(b) where implemented using one nested for-loop instead of two seperate for-loops as shown in 7(a) and 7(b).
+<br><br>Nested for-loops are very important concept in <b>competitive programming</b> as most people get confused with the flow of the program when it comes to "Nested for loops"
