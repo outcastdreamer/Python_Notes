@@ -246,6 +246,8 @@ In-case it says "python not found" in cmd, follow this [tutorial](https://www.yo
 <br><b>(a.)Flow of Code </b><br>
 Just like how we read books from top to bottom and left to right, the flow of the code works in the same way usually in python as well (Just like how it's done in C, C++ or Java). The [python interpreter]() reads the code from the 1st line to the last line provided there aren't any jump statements like function calls or decision/conditional statements or looping statements that would make a piece of code loop again and again until a specific condition is met. This is important to keep in mind as we have to make sure the right line of code is being executed at the right time or else we won't get the desired results. 
 
+Add examples to the 'Loops' for better understanding.
+
 <a id="5B Semi-colons in Python"></a>
 <br><b>(b.) Semi-colons in Python </b><br>
 Unlike C, C++ languages, Python doesn't require a semi-colon (;) to end a line of code. The python interpreter itself understands a new line as end of that line of code. Even though semi-colon isn't required, python still supports usage of semi-colon and is used the same way as in C & C++. It can be used to write two lines of code in one by using a semi-colon
@@ -2735,14 +2737,12 @@ print (a==" ")   #False, comparing to empty space
 
 ---
 <a id="10. Looping Statements in Python"></a>
-<h3><b>10. <u>Looping Statements in Python (For & While Loop)</h3></b></u>
-
+<h3><b>10. <u>Looping Statements in Python (For & While Loops)</u></b></h3>
 
 ---
-<br><b><u>(i.) Need for Looping Statements </u> : </b><br>
+<br><b><u>(i.) Need for Looping Statements:</u></b><br>
 <a id="10. i Need for looping statements in python"></a>
-Loop Statements are special features of any good programming language as they allow a programmer to execute a block of code under the looping statement multiple times until a required condition is met. This helps us by not having to repeat and type the same piece of code again and again.<br>
-One thing to keep in mind is the <b>"Flow of Code"</b> meaning how the code is run by the python interpreter. Most beginners don't keep this in mind and mess up the output as they execute the wrong line of code at the wrong time causing common errors such as <b>"Index out of range"</b> (in case of arrays/list elements calling).
+Loop statements are essential in any programming language because they allow the execution of a code block multiple times until a specified condition is met. This repetition saves us from writing the same code over and over. It's important to understand the <b>"Flow of Code"</b>, which refers to the order in which the Python interpreter runs the code. Beginners often overlook this, leading to common mistakes like an <b>"Index out of range"</b> error when accessing array or list elements incorrectly.
 
 <a id="10. ii For loop staments"></a>
 <br><br><b><u>(ii.) For loop Statements in Python (Syntax & Usage)</u> : </b><br><br>
